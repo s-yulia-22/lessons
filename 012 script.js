@@ -1,28 +1,3 @@
-
-
-
-const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?','');
-console.log(numberOfFilms);
-
-let personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
-
-const a = prompt('Один из последних просмотренных фильмов?',''),
-    b = prompt('На сколько оцените его?',''),
-    c = prompt('Один из последних просмотренных фильмов?',''),
-    d = prompt('На сколько оцените его?','');
-
-
-    personalMovieDB.movies[a]=b;
-    personalMovieDB.movies[c]=d;
-
-    console.log(personalMovieDB.movies);
-
 /* Задание на урок:
 
 1) Создать переменную numberOfFilms и в неё поместить ответ от пользователя на вопрос:
@@ -45,3 +20,6 @@ const a = prompt('Один из последних просмотренных ф
     }
 
 Проверить, чтобы все работало без ошибок в консоли */
+
+'use strict';
+
