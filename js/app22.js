@@ -25,7 +25,7 @@ function copy(mainObj) {
     }
 
     return objCopy;
-};
+}
 
 const numbers = {
     a: 2,
